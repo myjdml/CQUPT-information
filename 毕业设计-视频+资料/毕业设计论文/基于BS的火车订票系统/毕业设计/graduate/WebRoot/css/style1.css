@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:#e5e5e5;} 
+body { font:12px/20px 宋体; background:#fff; }
+body,ul,li,p,form,dl,dt,dd,input { margin:0; padding:0; }
+ul { list-style:none; }
+img { border:0; }
+table { border-collapse:collapse; }
+
+#case{background-color:#FFF; margin-left:196px; margin-right:195px; height:657px; width:960px;}
+#case #blue #timeLogo{margin-left:650px;padding-top:6px; font-size:18px; color:#009;}
+#blue{background-color:#e1ebf7; height:28px; }
+#login{ background-image:url(../picture/enter_left_bg.jpg); background-repeat:repeat-x;  width:675px; height:386px; }
+#waterline{background-color:#009; height:3px;}
+#register{ background-image:url(../picture/enter_right_top.jpg); background-repeat:repeat-x; width:273px; height:386px;}
+#register img{ margin-left:25px; margin-top:50px;}
+#register .buttons{margin-left:70px; margin-top:50px; text-decoration:none}
+#login form { padding-top:30px; margin-left:180px; width:410px; }
+#login form dl dt { float:left; width:70px; line-height:46px; height:46px; font-size:15px;  color:#000; }
+#login form dl dd { margin-left:70px; height:46px; }
+#login form dl dd input { margin:10px 0; width:200px; }
+#login .buttons { text-align:left; margin-top:30px; margin-left:50px;}
+#login .buttons input { margin-left:26px; }
+#login img{ margin-top:50px; margin-left:260px;}
+
+.input-text {
+	border:0;
+	padding:4px 8px;
+	font-size:16px;
+	background:url(../picture/input_bg.png) no-repeat;
+}
+.input-button {
+	border:0;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 14px;
+	background:url(../picture/button_bg.png) no-repeat;
+	color:#fff;
+	overflow:visible;
+}
+
+/* Top */
+#header { height:160px; }
+#blue #welcome {float:right; padding-top:6px; font-size:18px; color:#009; margin-right:150px;}
+#blue #time{float:right; margin-right:100px;padding-top:6px; font-size:18px; color:#009;}
+
+/* Frame */
+.frame-bd { background:url(../picture/frame_bg.gif) right top repeat-y; }
+
+/* Left */
+.left-menu { list-style:none; margin:0 8px;}
+.left-menu li { margin:5px 0; }
+
+
+
+
+
+
+
+.menu { background:url(../images/nav04.gif); line-height:40px; height:40px; font-size:16px; color:#fff; padding:0 20px; }
+.menu input { margin:5px 0; vertical-align:middle; }
+.menu .button {
+	border:0;
+	font-size:14px;
+	font-weight:bold;
+	padding:4px 16px;
+	background:#92d1f4;
+	color:#666;
+	overflow:visible;
+	background:url(../picture/button_serach.jpg);
+}
+
+.main { width:800px; padding:0 10px; }
+
+.optitle { padding:10px 0; border-bottom:2px solid #666666; }
+.optitle .title { line-height:30px; font-size:24px; font-weight:bold; color:#666666; }
+.optitle em { float:right; }
+.content { width:780px; padding:10px; margin:10px 0; background:#92d1f4; }
+.content table { width:100%; background:#fff; }
+.content table td { padding:2px 4px; }
+.content table.list td { border:1px solid #666; text-align:center; }
+.content table.box { border:1px solid #666; }
+.content table.box td { font-size:16px; padding:10px 0; }
+.content table.box td input.text { border:1px solid #7f9db9; padding:2px 5px; width:250px; }
+.content table.box td textarea { border:1px solid #7f9db9; padding:2px 5px; width:350px; height:80px; }
+.content table.box td.field { text-align:right; width:120px; }
+.main .buttons { text-align:center; }
+.main .buttons input { margin:0 10px; }
+
+
+
+
+
+
+

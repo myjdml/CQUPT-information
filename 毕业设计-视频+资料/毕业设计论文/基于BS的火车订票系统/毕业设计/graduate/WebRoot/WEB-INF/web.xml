@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.LoginServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetUsersServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.GetUsersServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetUserServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.GetUserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>DeleteUserServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.DeleteUserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ToUpdateUserServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.ToUpdateUserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>UpdateUserServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.UpdateUserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddUserServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.AddUserServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>UpdatePersonalInformationServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.UpdatePersonalInformationServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>UpdatePasswordServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.UpdatePasswordServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ToUpdatePasswordServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.ToUpdatePasswordServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetTrainServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Train.GetTrainServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetTrainsServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Train.GetTrainsServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>DeleteTrainServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Train.DeleteTrainServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ToUpdateTrainServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Train.ToUpdateTrainServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>UpdateTrainServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Train.UpdateTrainServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>AddTrainServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Train.AddTrainServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>BuyTicketServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Ticket.BuyTicketServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ToBuyTicketServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Ticket.ToBuyTicketServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>DoBuyTicketServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Ticket.DoBuyTicketServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetMyOrderServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Order.GetMyOrderServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetAllOrderServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Order.GetAllOrderServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetOrderServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Order.GetOrderServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ReturnTicketServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.Ticket.ReturnTicketServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>RegisterServlet</servlet-name>
+  <servlet-class>com.sp.dao.servlet.user.RegisterServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetUsersServlet</servlet-name>
+  <url-pattern>/GetUsersServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetUserServlet</servlet-name>
+  <url-pattern>/GetUserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DeleteUserServlet</servlet-name>
+  <url-pattern>/DeleteUserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ToUpdateUserServlet</servlet-name>
+  <url-pattern>/ToUpdateUserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>UpdateUserServlet</servlet-name>
+  <url-pattern>/UpdateUserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddUserServlet</servlet-name>
+  <url-pattern>/AddUserServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>UpdatePersonalInformationServlet</servlet-name>
+  <url-pattern>/UpdatePersonalInformationServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>UpdatePasswordServlet</servlet-name>
+  <url-pattern>/UpdatePasswordServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ToUpdatePasswordServlet</servlet-name>
+  <url-pattern>/ToUpdatePasswordServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetTrainServlet</servlet-name>
+  <url-pattern>/GetTrainServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetTrainsServlet</servlet-name>
+  <url-pattern>/GetTrainsServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DeleteTrainServlet</servlet-name>
+  <url-pattern>/DeleteTrainServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ToUpdateTrainServlet</servlet-name>
+  <url-pattern>/ToUpdateTrainServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>UpdateTrainServlet</servlet-name>
+  <url-pattern>/UpdateTrainServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddTrainServlet</servlet-name>
+  <url-pattern>/AddTrainServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>BuyTicketServlet</servlet-name>
+  <url-pattern>/BuyTicketServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ToBuyTicketServlet</servlet-name>
+  <url-pattern>/ToBuyTicketServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>DoBuyTicketServlet</servlet-name>
+  <url-pattern>/DoBuyTicketServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetMyOrderServlet</servlet-name>
+  <url-pattern>/GetMyOrderServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetAllOrderServlet</servlet-name>
+  <url-pattern>/GetAllOrderServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetOrderServlet</servlet-name>
+  <url-pattern>/GetOrderServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ReturnTicketServlet</servlet-name>
+  <url-pattern>/ReturnTicketServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/RegisterServlet</url-pattern>
+ </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>/login.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>
